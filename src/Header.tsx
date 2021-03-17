@@ -14,7 +14,7 @@ interface Film {
 
 export const Header = ({buttonText,  resetButtonText}: HeaderProps) => {
     const [count, setCount] = useState<number | null>(0);
-    const [film, setFilm] = useState<Film | null>(null);
+    const [film, setFilm] = useState<Film | null>(null); //unused
 
     const increment = () => {
         count !== null ?
